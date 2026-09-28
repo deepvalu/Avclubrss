@@ -3,6 +3,9 @@ name: Sync 2026 Released Series
 on:
   schedule:
     - cron: "17 11 * * *"   # daily; the source list updates overnight
+  push:
+    branches: [main]
+    paths: [sync_released.py, .github/workflows/released.yml]
   workflow_dispatch:
     inputs:
       dry_run:
