@@ -60,7 +60,8 @@
  "Brothers (Apple TV)": {
   "search": "Brothers",
   "type": "show",
-  "year": 2026
+  "year": 2026,
+  "exact": true
  },
  "Youth (HBO)": {
   "search": "Youth",
