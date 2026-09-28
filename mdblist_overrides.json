@@ -55,11 +55,12 @@
  },
  "War": {
   "search": "War",
-  "type": "show"
+  "year": 2026
  },
  "Brothers (Apple TV)": {
   "search": "Brothers",
-  "type": "show"
+  "type": "show",
+  "year": 2026
  },
  "Youth (HBO)": {
   "search": "Youth",
