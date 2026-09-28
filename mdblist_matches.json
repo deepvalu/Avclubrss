@@ -209,14 +209,15 @@
  },
  "Brothers (Apple TV)": {
   "type": "show",
-  "imdb": "tt6155146",
-  "title": "Brothers",
-  "year": 2015,
-  "exact": true,
-  "ambiguous": true,
+  "imdb": "tt41962673",
+  "title": "Brothers and Sisters",
+  "year": 2026,
+  "exact": false,
+  "ambiguous": false,
   "override": {
    "search": "Brothers",
-   "type": "show"
+   "type": "show",
+   "year": 2026
   },
   "synced": true
  },
@@ -1414,19 +1415,6 @@
   "ambiguous": false,
   "synced": true,
   "override": null
- },
- "War": {
-  "type": "show",
-  "imdb": "tt0996994",
-  "title": "The War",
-  "year": 2007,
-  "exact": true,
-  "ambiguous": false,
-  "override": {
-   "search": "War",
-   "type": "show"
-  },
-  "synced": true
  },
  "Widow's Bay (Apple TV)": {
   "type": "show",

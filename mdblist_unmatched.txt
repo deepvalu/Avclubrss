@@ -2,3 +2,4 @@ Picks the sync couldn't match. Add fixes to mdblist_overrides.json.
 
 2026-08-02  Star Wars: Visions Presents—The Ninth Jedi (Hulu/Disney+)  [searched: The Ninth Jedi]
 2026-09-13  The Traitors: New Blood (Peacock)  [searched: The Traitors: New Blood]
+2026-09-27  War  [searched: War]
