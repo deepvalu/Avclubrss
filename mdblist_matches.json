@@ -7,7 +7,11 @@
   "exact": true,
   "ambiguous": false,
   "search": "28 Years Later: The Bone Temple",
-  "synced": true
+  "synced": true,
+  "override": {
+   "search": "28 Years Later: The Bone Temple",
+   "type": "movie"
+  }
  },
  "56 Days (Prime Video)": {
   "type": "show",
@@ -16,7 +20,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "A Different World (Netflix)": {
   "type": "show",
@@ -25,7 +30,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "A Knight Of The Seven Kingdoms (HBO)": {
   "type": "show",
@@ -34,7 +40,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "A Tale Of Two Cities (MGM+)": {
   "type": "show",
@@ -43,7 +50,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Adults, season 2 (FX/Hulu)": {
   "type": "show",
@@ -52,7 +60,8 @@
   "year": 2025,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Adventure Time: Side Quests (Hulu/Disney+)": {
   "type": "show",
@@ -61,7 +70,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Agatha Christie's Seven Dials (Netflix)": {
   "type": "show",
@@ -70,7 +80,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Alice And Steve (Hulu)": {
   "type": "show",
@@ -79,7 +90,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Amadeus (Starz)": {
   "type": "show",
@@ -88,7 +100,8 @@
   "year": 2025,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "American Classic (MGM+)": {
   "type": "show",
@@ -97,7 +110,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "American Hostage (MGM+)": {
   "type": "show",
@@ -106,7 +120,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Avatar Aang: The Last Airbender (Paramount+)": {
   "type": "movie",
@@ -116,7 +131,11 @@
   "exact": true,
   "ambiguous": false,
   "search": "Avatar Aang: The Last Airbender",
-  "synced": true
+  "synced": true,
+  "override": {
+   "search": "Avatar Aang: The Last Airbender",
+   "type": "movie"
+  }
  },
  "Avatar: The Last Airbender, season 2 (Netflix)": {
   "type": "show",
@@ -125,7 +144,8 @@
   "year": 2024,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Bait (Prime Video)": {
   "type": "show",
@@ -134,7 +154,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Beef": {
   "type": "show",
@@ -143,7 +164,8 @@
   "year": 2023,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Best Medicine (Fox)": {
   "type": "show",
@@ -152,7 +174,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Big Mistakes (Netflix)": {
   "type": "show",
@@ -161,7 +184,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Bridgerton, season 4 (Netflix)": {
   "type": "show",
@@ -170,7 +194,8 @@
   "year": 2020,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Bridgerton, season 4 vol. 2 (Netflix)": {
   "type": "show",
@@ -179,15 +204,20 @@
   "year": 2020,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Brothers (Apple TV)": {
-  "type": "movie",
-  "imdb": "tt5803522",
+  "type": "show",
+  "imdb": "tt6155146",
   "title": "Brothers",
   "year": 2015,
   "exact": true,
   "ambiguous": true,
+  "override": {
+   "search": "Brothers",
+   "type": "show"
+  },
   "synced": true
  },
  "Cape Fear (Apple TV)": {
@@ -197,7 +227,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Chad Powers, season 2 (Hulu)": {
   "type": "show",
@@ -206,7 +237,8 @@
   "year": 2025,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Criminal Record (Prime Video)": {
   "type": "show",
@@ -215,7 +247,8 @@
   "year": 2024,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "DTF St. Louis (HBO)": {
   "type": "show",
@@ -224,7 +257,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Daredevil: Born Again, season 2 (Disney+)": {
   "type": "show",
@@ -233,7 +267,8 @@
   "year": 2025,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Dark Matter, season 2 (Apple TV)": {
   "type": "show",
@@ -242,7 +277,8 @@
   "year": 2024,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Dark Winds, season 4 (AMC)": {
   "type": "show",
@@ -251,7 +287,8 @@
   "year": 2022,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Deli Boys, season 2 (Hulu)": {
   "type": "show",
@@ -260,7 +297,8 @@
   "year": 2025,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Dutton Ranch (Paramount+)": {
   "type": "show",
@@ -269,7 +307,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "East Of Eden": {
   "type": "show",
@@ -278,7 +317,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Elle": {
   "type": "show",
@@ -287,7 +327,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Euphoria season finale (HBO)": {
   "type": "show",
@@ -296,7 +337,8 @@
   "year": 2019,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Euphoria, season 3 (HBO)": {
   "type": "show",
@@ -305,7 +347,8 @@
   "year": 2019,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Every Year After (Prime Video)": {
   "type": "show",
@@ -314,7 +357,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Fightland (Starz)": {
   "type": "show",
@@ -323,7 +367,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "From": {
   "type": "show",
@@ -332,7 +377,8 @@
   "year": 2022,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Furious (Hulu)": {
   "type": "show",
@@ -341,7 +387,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Half Man (HBO)": {
   "type": "show",
@@ -350,7 +397,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Heartstopper movie (Netflix)": {
   "type": "movie",
@@ -360,7 +408,11 @@
   "exact": true,
   "ambiguous": true,
   "search": "Heartstopper",
-  "synced": true
+  "synced": true,
+  "override": {
+   "search": "Heartstopper",
+   "type": "movie"
+  }
  },
  "His & Hers (Netflix)": {
   "type": "show",
@@ -369,7 +421,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "House Of The Dragon season 3 finale (HBO)": {
   "type": "show",
@@ -378,7 +431,8 @@
   "year": 2022,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "House Of The Dragon, season 3 (HBO)": {
   "type": "show",
@@ -387,7 +441,8 @@
   "year": 2022,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "How To Get To Heaven From Belfast (Netflix)": {
   "type": "show",
@@ -396,7 +451,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "I Will Find You (Netflix)": {
   "type": "show",
@@ -405,7 +461,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Imperfect Women (Apple TV)": {
   "type": "show",
@@ -414,7 +471,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Invincible, season 4 (Prime Video)": {
   "type": "show",
@@ -423,7 +481,8 @@
   "year": 2021,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "It's Always Sunny in Philadelphia, season 18 (FXX/Hulu)": {
   "type": "show",
@@ -432,7 +491,8 @@
   "year": 2005,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Jury Duty Presents: Company Retreat (Prime Video)": {
   "type": "show",
@@ -441,7 +501,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Lanterns (HBO)": {
   "type": "show",
@@ -450,7 +511,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Last Seen (Apple TV)": {
   "type": "show",
@@ -459,7 +521,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Life, Larry And The Pursuit Of Unhappiness (HBO)": {
   "type": "show",
@@ -468,7 +531,8 @@
   "year": 2026,
   "exact": false,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Line Of Fire (NBC)": {
   "type": "show",
@@ -477,7 +541,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Little House On The Prairie": {
   "type": "show",
@@ -486,7 +551,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Lord Of The Flies (Netflix)": {
   "type": "show",
@@ -495,15 +561,20 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Love Story: John F. Kennedy Jr. & Carolyn Bessette (FX/Hulu)": {
   "type": "show",
-  "imdb": "tt40107202",
-  "title": "Love Story: John F. Kennedy Jr. & Carolyn Bessette Official Podcast",
+  "imdb": "tt15232564",
+  "title": "Love Story",
   "year": 2026,
-  "exact": false,
-  "ambiguous": false,
+  "exact": true,
+  "ambiguous": true,
+  "override": {
+   "search": "Love Story",
+   "type": "show"
+  },
   "synced": true
  },
  "Lucky (Apple TV)": {
@@ -513,7 +584,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Malcolm In The Middle: Life's Still Unfair (Hulu)": {
   "type": "show",
@@ -522,7 +594,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Man On Fire (Netflix)": {
   "type": "show",
@@ -531,6 +604,20 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
+  "synced": true,
+  "override": null
+ },
+ "Margot's Got Money Troubles": {
+  "type": "show",
+  "imdb": "tt31137273",
+  "title": "Margo's Got Money Troubles",
+  "year": 2026,
+  "exact": true,
+  "ambiguous": false,
+  "override": {
+   "search": "Margo's Got Money Troubles",
+   "type": "show"
+  },
   "synced": true
  },
  "Mating Season (Netflix)": {
@@ -540,7 +627,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Maximum Pleasure Guaranteed (Apple TV)": {
   "type": "show",
@@ -549,7 +637,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Mel Brooks: The 99 Year Old Man! (HBO)": {
   "type": "show",
@@ -558,7 +647,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Monster: The Lizzie Borden Story (Netflix)": {
   "type": "show",
@@ -567,7 +657,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Mother Mary (HBO Max)": {
   "type": "movie",
@@ -577,7 +668,11 @@
   "exact": true,
   "ambiguous": true,
   "search": "Mother Mary",
-  "synced": true
+  "synced": true,
+  "override": {
+   "search": "Mother Mary",
+   "type": "movie"
+  }
  },
  "My Brilliant Career (Netflix)": {
   "type": "show",
@@ -586,7 +681,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Neagley (Prime Video)": {
   "type": "show",
@@ -595,7 +691,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Not Suitable For Work (Hulu)": {
   "type": "show",
@@ -604,7 +701,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Off Campus (Prime Video)": {
   "type": "show",
@@ -613,7 +711,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Outer Banks, final season (Netflix)": {
   "type": "show",
@@ -622,7 +721,8 @@
   "year": 2020,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Outlander, season 8 (Starz)": {
   "type": "show",
@@ -631,7 +731,8 @@
   "year": 2014,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Paradise, season 2 (Hulu)": {
   "type": "show",
@@ -640,7 +741,8 @@
   "year": 2025,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Peaky Blinders: The Immortal Man (Netflix)": {
   "type": "movie",
@@ -650,7 +752,11 @@
   "exact": true,
   "ambiguous": false,
   "search": "Peaky Blinders: The Immortal Man",
-  "synced": true
+  "synced": true,
+  "override": {
+   "search": "Peaky Blinders: The Immortal Man",
+   "type": "movie"
+  }
  },
  "Ponies (Peacock)": {
   "type": "show",
@@ -659,7 +765,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "President Curtis (Adult Swim)": {
   "type": "show",
@@ -668,7 +775,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Reacher, season 4 (Prime Video)": {
   "type": "show",
@@ -677,7 +785,8 @@
   "year": 2022,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Reality Check: Inside America's Next Top Model (Netflix)": {
   "type": "show",
@@ -686,7 +795,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Ride Or Die (Prime Video)": {
   "type": "show",
@@ -695,7 +805,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Rivals, season 2 (Hulu)": {
   "type": "show",
@@ -704,7 +815,8 @@
   "year": 2024,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Rooster (HBO)": {
   "type": "show",
@@ -713,7 +825,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Running Point": {
   "type": "show",
@@ -722,7 +835,8 @@
   "year": 2025,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Saturday Night Live UK (Peacock)": {
   "type": "show",
@@ -731,7 +845,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Scarpetta (Prime Video)": {
   "type": "show",
@@ -740,7 +855,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Scrubs, season 10 (ABC)": {
   "type": "show",
@@ -749,7 +865,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Shoresy, season 5 (Hulu)": {
   "type": "show",
@@ -758,7 +875,8 @@
   "year": 2022,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Shrinking, season 3 (Apple TV)": {
   "type": "show",
@@ -767,7 +885,8 @@
   "year": 2023,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Silo, season 3 (Apple TV)": {
   "type": "show",
@@ -776,7 +895,8 @@
   "year": 2023,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Slow Horses (Apple TV)": {
   "type": "show",
@@ -785,7 +905,8 @@
   "year": 2022,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Snoopy Presents: There's No Place Like Home, Snoopy (Apple TV)": {
   "type": "movie",
@@ -794,7 +915,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Spider-Noir (Prime Video/MGM+)": {
   "type": "show",
@@ -803,7 +925,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Star City": {
   "type": "show",
@@ -812,7 +935,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Star Trek: Starfleet Academy (Paramount+)": {
   "type": "show",
@@ -821,7 +945,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Steal (Prime Video)": {
   "type": "show",
@@ -830,7 +955,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Stranger Things series finale (Netflix)": {
   "type": "show",
@@ -839,7 +965,8 @@
   "year": 2016,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Stranger Things: Tales From '85 (Netflix)": {
   "type": "show",
@@ -848,7 +975,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Strip Law (Netflix)": {
   "type": "show",
@@ -857,7 +985,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Stuart Fails To Save The Universe (HBO Max)": {
   "type": "show",
@@ -866,7 +995,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Sugar, season 2 (Apple TV)": {
   "type": "show",
@@ -875,7 +1005,8 @@
   "year": 2024,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Sunny Nights (Hulu)": {
   "type": "show",
@@ -884,7 +1015,8 @@
   "year": 2025,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Survivor 50 (CBS)": {
   "type": "show",
@@ -894,7 +1026,11 @@
   "exact": true,
   "ambiguous": false,
   "search": "Survivor",
-  "synced": true
+  "synced": true,
+  "override": {
+   "search": "Survivor",
+   "type": "show"
+  }
  },
  "Ted Lasso, season 4 (Apple TV)": {
   "type": "show",
@@ -903,7 +1039,8 @@
   "year": 2020,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Tell Me Lies, season 3 (Hulu)": {
   "type": "show",
@@ -912,7 +1049,8 @@
   "year": 2022,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The 'Burbs (Peacock)": {
   "type": "show",
@@ -921,7 +1059,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Audacity (AMC)": {
   "type": "show",
@@ -930,7 +1069,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Bear, final season (FX/Hulu)": {
   "type": "show",
@@ -939,7 +1079,8 @@
   "year": 2022,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Beauty (FX)": {
   "type": "show",
@@ -948,7 +1089,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Boroughs (Netflix)": {
   "type": "show",
@@ -957,15 +1099,20 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Comeback, season 3 (HBO)": {
   "type": "show",
-  "imdb": "tt1321261",
-  "title": "Comeback",
-  "year": 2008,
+  "imdb": "tt0434672",
+  "title": "The Comeback",
+  "year": 2005,
   "exact": true,
-  "ambiguous": true,
+  "ambiguous": false,
+  "override": {
+   "search": "The Comeback",
+   "type": "show"
+  },
   "synced": true
  },
  "The Dink (Apple TV)": {
@@ -976,7 +1123,11 @@
   "exact": true,
   "ambiguous": false,
   "search": "The Dink",
-  "synced": true
+  "synced": true,
+  "override": {
+   "search": "The Dink",
+   "type": "movie"
+  }
  },
  "The Drop: A Snowfall Saga (FX/Hulu)": {
   "type": "show",
@@ -985,7 +1136,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Five Star Weekend (Peacock)": {
   "type": "show",
@@ -994,7 +1146,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Four Seasons, season 2 (Netflix)": {
   "type": "show",
@@ -1003,7 +1156,8 @@
   "year": 2025,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Gentlemen, season 2 (Netflix)": {
   "type": "show",
@@ -1012,7 +1166,8 @@
   "year": 2024,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Hawk (Netflix)": {
   "type": "show",
@@ -1021,7 +1176,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Legend of Vox Machina, season 4 (Prime Video)": {
   "type": "show",
@@ -1030,7 +1186,8 @@
   "year": 2022,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Listeners (Starz)": {
   "type": "show",
@@ -1039,7 +1196,8 @@
   "year": 2024,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Madison (Paramount+)": {
   "type": "show",
@@ -1048,7 +1206,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Man Will Burn (HBO)": {
   "type": "show",
@@ -1057,7 +1216,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Miniature Wife (Peacock)": {
   "type": "show",
@@ -1066,7 +1226,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Muppet Show special (ABC/Disney+)": {
   "type": "show",
@@ -1075,7 +1236,8 @@
   "year": 1976,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Other Bennet Sister": {
   "type": "show",
@@ -1084,7 +1246,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Paper, season 2 (Peacock)": {
   "type": "show",
@@ -1093,7 +1256,8 @@
   "year": 2025,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Pitt, season 2 (HBO Max)": {
   "type": "show",
@@ -1102,7 +1266,8 @@
   "year": 2025,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Punisher: One Last Kill (Disney+)": {
   "type": "movie",
@@ -1111,7 +1276,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Shards (FX)": {
   "type": "show",
@@ -1120,7 +1286,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Terror: Devil In Silver (AMC+/Shudder)": {
   "type": "show",
@@ -1129,7 +1296,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Testaments (Hulu)": {
   "type": "show",
@@ -1138,15 +1306,21 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "The Traitors, season 4 (Peacock)": {
   "type": "show",
-  "imdb": "tt33347879",
+  "imdb": "tt15557874",
   "title": "The Traitors",
-  "year": 2025,
+  "year": 2023,
   "exact": true,
-  "ambiguous": true,
+  "ambiguous": false,
+  "override": {
+   "search": "The Traitors",
+   "type": "show",
+   "year": 2023
+  },
   "synced": true
  },
  "The Vampire Lestat / Interview With The Vampire, season 3 (AMC)": {
@@ -1157,7 +1331,11 @@
   "exact": true,
   "ambiguous": false,
   "search": "Interview with the Vampire",
-  "synced": true
+  "synced": true,
+  "override": {
+   "search": "Interview with the Vampire",
+   "type": "show"
+  }
  },
  "The Vampire Lestat season finale (AMC)": {
   "type": "show",
@@ -1167,7 +1345,11 @@
   "exact": true,
   "ambiguous": false,
   "search": "Interview with the Vampire",
-  "synced": true
+  "synced": true,
+  "override": {
+   "search": "Interview with the Vampire",
+   "type": "show"
+  }
  },
  "The Yogurt Shop Murders finale (HBO)": {
   "type": "show",
@@ -1176,7 +1358,8 @@
   "year": 2025,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Together (Hulu)": {
   "type": "movie",
@@ -1186,7 +1369,11 @@
   "exact": true,
   "ambiguous": true,
   "search": "Together",
-  "synced": true
+  "synced": true,
+  "override": {
+   "search": "Together",
+   "type": "movie"
+  }
  },
  "Trying, season 5 (Apple TV)": {
   "type": "show",
@@ -1195,7 +1382,8 @@
   "year": 2020,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Twenty Twenty Six (BritBox)": {
   "type": "show",
@@ -1204,7 +1392,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Vanished (MGM+)": {
   "type": "show",
@@ -1213,7 +1402,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Vladimir (Netflix)": {
   "type": "show",
@@ -1222,15 +1412,20 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "War": {
   "type": "show",
-  "imdb": "tt3910804",
-  "title": "War and Peace",
-  "year": 2016,
-  "exact": false,
-  "ambiguous": true,
+  "imdb": "tt0996994",
+  "title": "The War",
+  "year": 2007,
+  "exact": true,
+  "ambiguous": false,
+  "override": {
+   "search": "War",
+   "type": "show"
+  },
   "synced": true
  },
  "Widow's Bay (Apple TV)": {
@@ -1240,15 +1435,20 @@
   "year": 2026,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Wolf (AMC+/Shudder)": {
   "type": "show",
-  "imdb": "tt14452228",
-  "title": "Wolf Like Me",
-  "year": 2022,
-  "exact": false,
+  "imdb": "tt14466338",
+  "title": "Wolf",
+  "year": 2023,
+  "exact": true,
   "ambiguous": true,
+  "override": {
+   "search": "Wolf",
+   "type": "show"
+  },
   "synced": true
  },
  "Wonder Man (Disney+)": {
@@ -1258,7 +1458,8 @@
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "X-Men '97, season 2": {
   "type": "show",
@@ -1267,7 +1468,8 @@
   "year": 2024,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "XO, Kitty, season 3 (Netflix)": {
   "type": "show",
@@ -1276,7 +1478,8 @@
   "year": 2023,
   "exact": true,
   "ambiguous": false,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Your Friends & Neighbors, season 2 (Apple TV)": {
   "type": "show",
@@ -1285,15 +1488,20 @@
   "year": 2025,
   "exact": true,
   "ambiguous": true,
-  "synced": true
+  "synced": true,
+  "override": null
  },
  "Youth (HBO)": {
-  "type": "movie",
-  "imdb": "tt38693888",
+  "type": "show",
+  "imdb": "tt35949226",
   "title": "Youth",
   "year": 2026,
   "exact": true,
   "ambiguous": true,
+  "override": {
+   "search": "Youth",
+   "type": "show"
+  },
   "synced": true
  }
 }
