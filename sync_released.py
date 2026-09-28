@@ -5,7 +5,7 @@ which carries IMDb IDs, newest release first).
 
 Env:
   MDBLIST_API_KEY            (required)
-  RELEASED_LIST_NAME         MDBList list name, default "2026 Released Series"
+  RELEASED_LIST_NAME         MDBList list name, default "Released Series"
   RELEASED_LIST_ID           numeric list id (optional, skips the name lookup)
   RELEASED_CATALOG           catalog URL (optional)
   DRY_RUN=1                  show what would change, change nothing
@@ -19,7 +19,7 @@ import sync_mdblist as mdb
 
 CATALOG = os.environ.get("RELEASED_CATALOG",
                          "https://dracid77.github.io/lists/addon/catalog/series/released-series")
-LIST_NAME = os.environ.get("RELEASED_LIST_NAME", "2026 Released Series")
+LIST_NAME = os.environ.get("RELEASED_LIST_NAME", "Released Series")
 STATE = "released_state.json"
 DRY = os.environ.get("DRY_RUN") == "1"
 REBUILD = os.environ.get("REBUILD") == "1"

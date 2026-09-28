@@ -31,7 +31,7 @@ jobs:
       - name: Mirror list to MDBList
         env:
           MDBLIST_API_KEY: ${{ secrets.MDBLIST_API_KEY || secrets.MDB_LIST_API_KEY }}
-          RELEASED_LIST_NAME: 2026 Released Series
+          RELEASED_LIST_NAME: Released Series
           DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
           REBUILD: ${{ inputs.rebuild && '1' || '0' }}
         run: python sync_released.py
