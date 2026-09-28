@@ -15,5 +15,7 @@ Subscribe: https://deepvalu.github.io/avclubrss/feed.xml
   - `{"search": "Better title", "type": "show"}` searches with a different title
   - `{"type": "show", "imdb": "tt1234567"}` uses an exact item
   - `null` skips the pick
+- Each item is added in the order of the week it was featured, so sorting the list by "date added" follows the articles. A show featured again in a later week moves to the top.
+- To clear the list and re-add everything in order, run the workflow with "rebuild" ticked.
 - Live events like award shows and the Olympics are skipped automatically.
 - Run it by hand from the Actions tab ("Sync MDBList" → Run workflow). Tick "dry run" to preview matches without adding anything.

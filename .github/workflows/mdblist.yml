@@ -12,6 +12,10 @@ on:
         description: "Match titles only, don't add to the list"
         type: boolean
         default: false
+      rebuild:
+        description: "Clear the list and re-add everything, oldest week first"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -31,11 +35,12 @@ jobs:
           MDBLIST_API_KEY: ${{ secrets.MDBLIST_API_KEY || secrets.MDB_LIST_API_KEY }}
           MDBLIST_LIST_NAME: A.V. Club Weekly Picks
           DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+          REBUILD: ${{ (inputs.rebuild || contains(github.event.head_commit.message, '[rebuild]')) && '1' || '0' }}
         run: python sync_mdblist.py
       - name: Save match results
         if: ${{ !inputs.dry_run }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add mdblist_matches.json mdblist_unmatched.txt
+          git add mdblist_matches.json mdblist_unmatched.txt mdblist_state.json
           git diff --cached --quiet || (git commit -m "Update MDBList match results" && git pull --rebase && git push)

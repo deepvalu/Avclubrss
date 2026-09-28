@@ -20,6 +20,7 @@ API = "https://api.mdblist.com"
 KEY = os.environ.get("MDBLIST_API_KEY", "")
 LIST_NAME = os.environ.get("MDBLIST_LIST_NAME", "A.V. Club Weekly Picks")
 DRY = os.environ.get("DRY_RUN") == "1"
+REBUILD = os.environ.get("REBUILD") == "1"   # clear the list and re-add everything week by week
 
 # Picks that are live events / ceremonies, not something MDBList can hold.
 EVENT_WORDS = re.compile(
@@ -112,13 +113,13 @@ def match(title, year, want_type=None, want_year=None):
 
 def key_of(m):
     idkey = "imdb" if m.get("imdb") else "tmdb"
-    return ("movies" if m["type"] == "movie" else "shows", idkey, m[idkey])
+    return ("movies" if m["type"] == "movie" else "shows", idkey, str(m[idkey]))
 
 
 def body_for(keys):
     body = {"movies": [], "shows": []}
     for group, idkey, val in sorted(set(keys), key=str):
-        body[group].append({idkey: val})
+        body[group].append({idkey: int(val) if idkey == "tmdb" else val})
     return body
 
 
@@ -144,7 +145,7 @@ def main():
                 prev["override"] = o if o and prev.get("search") == o.get("search") and "year" not in o \
                     else (None if "search" not in prev else "legacy")
             if prev and prev.get("override") == o:          # already resolved the same way
-                matches[pick] = prev
+                matches[pick] = dict(prev, week=w["start"])
                 continue
             if o and ("imdb" in o or "tmdb" in o):
                 m = {"type": o.get("type", "show"), **{k: o[k] for k in ("imdb", "tmdb") if k in o}}
@@ -160,28 +161,49 @@ def main():
                 flag = "" if m["exact"] and not m["ambiguous"] else "  (check this one)"
                 print(f"matched  {pick!r} -> {m['title']} ({m['year']}, {m['type']}){flag}")
             m["override"] = o
-            if prev and prev.get("synced") and key_of(prev) == key_of(m):
-                m["synced"] = True
-            else:
-                m["synced"] = False
-                if prev and prev.get("synced"):
-                    removed.append(prev)
+            m["week"] = w["start"]
+            m["synced"] = bool(prev and prev.get("synced") and key_of(prev) == key_of(m))
+            if prev and prev.get("synced") and not m["synced"]:
+                removed.append(prev)
             matches[pick] = m
 
-    keep = {key_of(m) for m in matches.values()}
-    to_remove = {key_of(m) for m in removed} - keep
-    to_add = {key_of(m) for m in matches.values() if not m.get("synced")}
+    # Each item sits on the list at the latest week it was featured. MDBList stamps
+    # "date added" itself, so items are added one week at a time, oldest first.
+    state = {tuple(k.split("|")): v for k, v in load("mdblist_state.json", {}).items()}
+    if not state:  # first run with state tracking: everything synced so far is on the list
+        state = {key_of(m): "" for m in list(old.values()) + list(matches.values()) if m.get("synced")}
+    want = {}
+    for m in matches.values():
+        want[key_of(m)] = max(want.get(key_of(m), ""), m["week"])
+    on_list = set(state) | {key_of(m) for m in removed if m.get("synced")}
+
+    if REBUILD:
+        to_remove = on_list
+        to_add = dict(want)
+    else:
+        to_remove = {k for k in on_list if k not in want or state.get(k, "") < want[k]}
+        to_add = {k: wk for k, wk in want.items() if k not in state or state[k] < wk}
+    to_remove &= on_list
 
     if (to_add or to_remove) and not DRY:
         list_id = find_list_id()
         if to_remove:
             res = api("POST", f"/lists/{list_id}/items/remove", body=body_for(to_remove))
             print("removed:", json.dumps(res))
-        if to_add:
-            res = api("POST", f"/lists/{list_id}/items/add", body=body_for(to_add))
-            print("added:", json.dumps(res))
+            for k in to_remove:
+                state.pop(k, None)
+        for wk in sorted(set(to_add.values())):
+            batch = [k for k, v in to_add.items() if v == wk]
+            res = api("POST", f"/lists/{list_id}/items/add", body=body_for(batch))
+            print(f"added week {wk}:", json.dumps(res))
+            for k in batch:
+                state[k] = wk
+            time.sleep(2)
         for m in matches.values():
             m["synced"] = True
+        with open("mdblist_state.json", "w") as f:
+            json.dump({"|".join(map(str, k)): v for k, v in sorted(state.items(), key=lambda x: (x[1], str(x[0])))},
+                      f, indent=1)
     print(f"{len(to_add)} to add, {len(to_remove)} to remove{' (dry run)' if DRY else ''}; "
           f"{len(unmatched)} unmatched.")
 
