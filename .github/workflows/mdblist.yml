@@ -3,7 +3,7 @@ name: Sync MDBList
 on:
   push:
     branches: [main]
-    paths: [weeks.json, mdblist_overrides.json]
+    paths: [weeks.json, mdblist_overrides.json, sync_mdblist.py, .github/workflows/mdblist.yml]
   schedule:
     - cron: "30 20 * * 0"   # Sundays, after the weekly feed update
   workflow_dispatch:
