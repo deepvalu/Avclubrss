@@ -207,20 +207,6 @@
   "synced": true,
   "override": null
  },
- "Brothers (Apple TV)": {
-  "type": "show",
-  "imdb": "tt41962673",
-  "title": "Brothers and Sisters",
-  "year": 2026,
-  "exact": false,
-  "ambiguous": false,
-  "override": {
-   "search": "Brothers",
-   "type": "show",
-   "year": 2026
-  },
-  "synced": true
- },
  "Cape Fear (Apple TV)": {
   "type": "show",
   "imdb": "tt34675596",
