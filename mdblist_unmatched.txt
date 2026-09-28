@@ -1,0 +1,6 @@
+Picks the sync couldn't match. Add fixes to mdblist_overrides.json.
+
+2026-04-12  Margot's Got Money Troubles  [searched: Margot's Got Money Troubles]
+2026-08-02  Star Wars: Visions Presents—The Ninth Jedi (Hulu/Disney+)  [searched: Star Wars: Visions Presents—The Ninth Jedi]
+2026-08-23  The Simpsons: Yellow Mirror (Disney+)  [searched: The Simpsons: Yellow Mirror]
+2026-09-13  The Traitors: New Blood (Peacock)  [searched: The Traitors: New Blood]
