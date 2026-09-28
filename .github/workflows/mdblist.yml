@@ -1,0 +1,41 @@
+name: Sync MDBList
+
+on:
+  push:
+    branches: [main]
+    paths: [weeks.json, mdblist_overrides.json]
+  schedule:
+    - cron: "30 20 * * 0"   # Sundays, after the weekly feed update
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Match titles only, don't add to the list"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency: mdblist-sync
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Sync picks to MDBList
+        env:
+          MDBLIST_API_KEY: ${{ secrets.MDBLIST_API_KEY }}
+          MDBLIST_LIST_NAME: A.V. Club Weekly Picks
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+        run: python sync_mdblist.py
+      - name: Save match results
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add mdblist_matches.json mdblist_unmatched.txt
+          git diff --cached --quiet || (git commit -m "Update MDBList match results" && git pull --rebase && git push)
