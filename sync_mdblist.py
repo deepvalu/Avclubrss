@@ -91,7 +91,7 @@ def match(title, year, want_type=None, want_year=None):
     strict = [r for r in res if norm(r.get("title", ""), True) == qa]
     exact = [r for r in res if norm(r.get("title", "")) == q]
     # Longer/shorter titles only count if they're recent (avoids "Wolf" -> "Wolf Like Me").
-    close = [r for r in res if (r.get("year") or 0) >= year - 1 and (
+    close = [] if want_year else [r for r in res if (r.get("year") or 0) >= year - 1 and (
         norm(r.get("title", "")).startswith(q + " ") or q.startswith(norm(r.get("title", "")) + " "))]
     pool = strict or exact or close
     if not pool:
