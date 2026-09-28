@@ -1,0 +1,44 @@
+name: Sync 2026 Released Series
+
+on:
+  schedule:
+    - cron: "17 11 * * *"   # daily; the source list updates overnight
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Show changes only"
+        type: boolean
+        default: false
+      rebuild:
+        description: "Clear the list and re-add everything in release order"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency: released-sync
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Mirror list to MDBList
+        env:
+          MDBLIST_API_KEY: ${{ secrets.MDBLIST_API_KEY || secrets.MDB_LIST_API_KEY }}
+          RELEASED_LIST_NAME: 2026 Released Series
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+          REBUILD: ${{ inputs.rebuild && '1' || '0' }}
+        run: python sync_released.py
+      - name: Save state
+        if: ${{ always() && !inputs.dry_run }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add released_state.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Update 2026 Released Series state" && git pull --rebase && git push)

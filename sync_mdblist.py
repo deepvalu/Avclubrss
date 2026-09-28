@@ -73,14 +73,18 @@ def api(method, path, params=None, body=None):
 def find_list_id():
     if os.environ.get("MDBLIST_LIST_ID"):
         return int(os.environ["MDBLIST_LIST_ID"])
+    return find_list_id_by_name(LIST_NAME)
+
+
+def find_list_id_by_name(name):
     lists = api("GET", "/lists/user")
     for l in lists:
-        if norm(l.get("name", "")) == norm(LIST_NAME):
+        if norm(l.get("name", "")) == norm(name):
             if l.get("dynamic"):
-                sys.exit(f'"{LIST_NAME}" is a dynamic list; it must be a static list.')
+                sys.exit(f'"{name}" is a dynamic list; it must be a static list.')
             return l["id"]
     names = ", ".join(l.get("name", "?") for l in lists) or "none"
-    sys.exit(f'No list named "{LIST_NAME}" on your account (found: {names}).')
+    sys.exit(f'No list named "{name}" on your account (found: {names}).')
 
 
 def match(title, year, want_type=None, want_year=None):

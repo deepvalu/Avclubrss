@@ -19,3 +19,7 @@ Subscribe: https://deepvalu.github.io/avclubrss/feed.xml
 - To clear the list and re-add everything in order, run the workflow with "rebuild" ticked.
 - Live events like award shows and the Olympics are skipped automatically.
 - Run it by hand from the Actions tab ("Sync MDBList" → Run workflow). Tick "dry run" to preview matches without adding anything.
+
+## 2026 Released Series (MDBList)
+
+`sync_released.py` mirrors [Dracid's 2026 Released Series](https://dracid77.github.io/lists/released-series) into the static MDBList list **2026 Released Series**, every day (`.github/workflows/released.yml`). It uses the IMDb IDs from that site's catalog feed, so there's no title matching. New shows are added one at a time, oldest release first, so sorting the list by "date added" follows release order. Shows dropped from the source list are removed. Run it by hand from Actions → "Sync 2026 Released Series"; tick "rebuild" to clear and re-add everything in order.
