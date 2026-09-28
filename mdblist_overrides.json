@@ -40,5 +40,43 @@
  "Mother Mary (HBO Max)": {
   "search": "Mother Mary",
   "type": "movie"
- }
+ },
+ "The Comeback, season 3 (HBO)": {
+  "search": "The Comeback",
+  "type": "show"
+ },
+ "Love Story: John F. Kennedy Jr. & Carolyn Bessette (FX/Hulu)": {
+  "search": "Love Story",
+  "type": "show"
+ },
+ "Wolf (AMC+/Shudder)": {
+  "search": "Wolf",
+  "type": "show"
+ },
+ "War": {
+  "search": "War",
+  "type": "show"
+ },
+ "Brothers (Apple TV)": {
+  "search": "Brothers",
+  "type": "show"
+ },
+ "Youth (HBO)": {
+  "search": "Youth",
+  "type": "show"
+ },
+ "The Traitors, season 4 (Peacock)": {
+  "search": "The Traitors",
+  "type": "show",
+  "year": 2023
+ },
+ "Margot's Got Money Troubles": {
+  "search": "Margo's Got Money Troubles",
+  "type": "show"
+ },
+ "Star Wars: Visions Presents—The Ninth Jedi (Hulu/Disney+)": {
+  "search": "The Ninth Jedi",
+  "type": "show"
+ },
+ "The Simpsons: Yellow Mirror (Disney+)": null
 }

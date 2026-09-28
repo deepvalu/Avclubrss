@@ -45,11 +45,11 @@ def clean_title(pick):
     return t.strip()
 
 
-def norm(s):
+def norm(s, keep_article=False):
     s = s.lower().replace("&", "and").replace("’", "'")
     s = re.sub(r"[^a-z0-9 ]", " ", s)
-    s = re.sub(r"^(the|a|an) ", "", re.sub(r"\s+", " ", s).strip())
-    return s
+    s = re.sub(r"\s+", " ", s).strip()
+    return s if keep_article else re.sub(r"^(the|a|an) ", "", s)
 
 
 def api(method, path, params=None, body=None):
@@ -82,13 +82,18 @@ def find_list_id():
     sys.exit(f'No list named "{LIST_NAME}" on your account (found: {names}).')
 
 
-def match(title, year, want_type=None):
+def match(title, year, want_type=None, want_year=None):
     kind = {"movie": "movie", "show": "show"}.get(want_type, "any")
     res = api("GET", f"/search/{kind}", {"query": title}).get("search", [])
-    q = norm(title)
+    if want_year:
+        res = [r for r in res if r.get("year") == want_year]
+    q, qa = norm(title), norm(title, True)
+    strict = [r for r in res if norm(r.get("title", ""), True) == qa]
     exact = [r for r in res if norm(r.get("title", "")) == q]
-    close = [r for r in res if norm(r.get("title", "")).startswith(q + " ") or q.startswith(norm(r.get("title", "")) + " ")]
-    pool = exact or close
+    # Longer/shorter titles only count if they're recent (avoids "Wolf" -> "Wolf Like Me").
+    close = [r for r in res if (r.get("year") or 0) >= year - 1 and (
+        norm(r.get("title", "")).startswith(q + " ") or q.startswith(norm(r.get("title", "")) + " "))]
+    pool = strict or exact or close
     if not pool:
         return None
     # Prefer TV shows (the column is mostly TV), then the most recent release
@@ -102,7 +107,19 @@ def match(title, year, want_type=None):
     if not item:
         return None
     return {"type": typ, **item, "title": r.get("title"), "year": r.get("year"),
-            "exact": bool(exact), "ambiguous": len(pool) > 1}
+            "exact": bool(strict or exact), "ambiguous": len(pool) > 1}
+
+
+def key_of(m):
+    idkey = "imdb" if m.get("imdb") else "tmdb"
+    return ("movies" if m["type"] == "movie" else "shows", idkey, m[idkey])
+
+
+def body_for(keys):
+    body = {"movies": [], "shows": []}
+    for group, idkey, val in sorted(set(keys), key=str):
+        body[group].append({idkey: val})
+    return body
 
 
 def main():
@@ -110,56 +127,67 @@ def main():
         sys.exit("MDBLIST_API_KEY is not set.")
     weeks = load("weeks.json", [])
     overrides = load("mdblist_overrides.json", {})
-    matches = load("mdblist_matches.json", {})
-    unmatched = []
+    old = load("mdblist_matches.json", {})
+    matches, unmatched, removed = {}, [], []
 
     for w in weeks:
         year = int(w["start"][:4])
         for pick in w["picks"]:
+            prev = old.get(pick)
             o = overrides.get(pick, "none")
-            if o is None:
-                matches.pop(pick, None)
+            if o is None or (o == "none" and EVENT_WORDS.search(pick)):
+                if prev and prev.get("synced"):
+                    removed.append(prev)
                 continue
-            if isinstance(o, dict) and ("imdb" in o or "tmdb" in o):
-                prev = matches.get(pick, {})
-                same = all(prev.get(k) == v for k, v in o.items())
-                matches[pick] = dict(o, synced=prev.get("synced", False) and same, source="override")
+            o = o if isinstance(o, dict) else None
+            if prev and "override" not in prev:              # cache from before overrides were tracked
+                prev["override"] = o if o and prev.get("search") == o.get("search") and "year" not in o \
+                    else (None if "search" not in prev else "legacy")
+            if prev and prev.get("override") == o:          # already resolved the same way
+                matches[pick] = prev
                 continue
-            searched = isinstance(o, dict) and "search" in o
-            if (pick in matches and (not searched or matches[pick].get("search") == o["search"])) \
-                    or (EVENT_WORDS.search(pick) and not searched):
-                continue
-            title = o["search"] if searched else clean_title(pick)
-            m = match(title, year, o.get("type") if searched else None)
-            if m and searched:
-                m["search"] = o["search"]
-            time.sleep(0.3)
-            if m:
-                matches[pick] = dict(m, synced=False)
+            if o and ("imdb" in o or "tmdb" in o):
+                m = {"type": o.get("type", "show"), **{k: o[k] for k in ("imdb", "tmdb") if k in o}}
+            else:
+                title = o["search"] if o and "search" in o else clean_title(pick)
+                m = match(title, year, (o or {}).get("type"), (o or {}).get("year"))
+                time.sleep(0.3)
+                if not m:
+                    unmatched.append(f"{w['start']}  {pick}  [searched: {title}]")
+                    if prev and prev.get("synced"):
+                        removed.append(prev)
+                    continue
                 flag = "" if m["exact"] and not m["ambiguous"] else "  (check this one)"
                 print(f"matched  {pick!r} -> {m['title']} ({m['year']}, {m['type']}){flag}")
+            m["override"] = o
+            if prev and prev.get("synced") and key_of(prev) == key_of(m):
+                m["synced"] = True
             else:
-                unmatched.append(f"{w['start']}  {pick}  [searched: {title}]")
+                m["synced"] = False
+                if prev and prev.get("synced"):
+                    removed.append(prev)
+            matches[pick] = m
 
-    pending = {p: m for p, m in matches.items() if not m.get("synced")}
-    body = {"movies": [], "shows": []}
-    for m in pending.values():
-        idkey = "imdb" if m.get("imdb") else "tmdb"
-        entry = {idkey: m[idkey]}
-        group = body["movies" if m["type"] == "movie" else "shows"]
-        if entry not in group:
-            group.append(entry)
+    keep = {key_of(m) for m in matches.values()}
+    to_remove = {key_of(m) for m in removed} - keep
+    to_add = {key_of(m) for m in matches.values() if not m.get("synced")}
 
-    if pending and not DRY:
+    if (to_add or to_remove) and not DRY:
         list_id = find_list_id()
-        res = api("POST", f"/lists/{list_id}/items/add", body=body)
-        print("MDBList response:", json.dumps(res))
-        for p in pending:
-            matches[p]["synced"] = True
-    print(f"{len(pending)} item(s) {'would be ' if DRY else ''}sent; {len(unmatched)} unmatched.")
+        if to_remove:
+            res = api("POST", f"/lists/{list_id}/items/remove", body=body_for(to_remove))
+            print("removed:", json.dumps(res))
+        if to_add:
+            res = api("POST", f"/lists/{list_id}/items/add", body=body_for(to_add))
+            print("added:", json.dumps(res))
+        for m in matches.values():
+            m["synced"] = True
+    print(f"{len(to_add)} to add, {len(to_remove)} to remove{' (dry run)' if DRY else ''}; "
+          f"{len(unmatched)} unmatched.")
 
-    with open("mdblist_matches.json", "w") as f:
-        json.dump(dict(sorted(matches.items())), f, indent=1, ensure_ascii=False)
+    if not DRY:
+        with open("mdblist_matches.json", "w") as f:
+            json.dump(dict(sorted(matches.items())), f, indent=1, ensure_ascii=False)
     with open("mdblist_unmatched.txt", "w") as f:
         f.write("Picks the sync couldn't match. Add fixes to mdblist_overrides.json.\n\n")
         f.write("\n".join(unmatched) + ("\n" if unmatched else ""))
