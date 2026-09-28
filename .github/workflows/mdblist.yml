@@ -28,7 +28,7 @@ jobs:
           python-version: "3.12"
       - name: Sync picks to MDBList
         env:
-          MDBLIST_API_KEY: ${{ secrets.MDBLIST_API_KEY }}
+          MDBLIST_API_KEY: ${{ secrets.MDBLIST_API_KEY || secrets.MDB_LIST_API_KEY }}
           MDBLIST_LIST_NAME: A.V. Club Weekly Picks
           DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
         run: python sync_mdblist.py
