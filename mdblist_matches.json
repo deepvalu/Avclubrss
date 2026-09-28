@@ -11,7 +11,8 @@
   "override": {
    "search": "28 Years Later: The Bone Temple",
    "type": "movie"
-  }
+  },
+  "week": "2026-03-29"
  },
  "56 Days (Prime Video)": {
   "type": "show",
@@ -21,7 +22,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-02-15"
  },
  "A Different World (Netflix)": {
   "type": "show",
@@ -31,7 +33,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-09-20"
  },
  "A Knight Of The Seven Kingdoms (HBO)": {
   "type": "show",
@@ -41,7 +44,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-01-18"
  },
  "A Tale Of Two Cities (MGM+)": {
   "type": "show",
@@ -51,7 +55,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-09-06"
  },
  "Adults, season 2 (FX/Hulu)": {
   "type": "show",
@@ -61,7 +66,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-08-23"
  },
  "Adventure Time: Side Quests (Hulu/Disney+)": {
   "type": "show",
@@ -71,7 +77,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-06-28"
  },
  "Agatha Christie's Seven Dials (Netflix)": {
   "type": "show",
@@ -81,7 +88,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-01-11"
  },
  "Alice And Steve (Hulu)": {
   "type": "show",
@@ -91,7 +99,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-06-07"
  },
  "Amadeus (Starz)": {
   "type": "show",
@@ -101,7 +110,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-05-03"
  },
  "American Classic (MGM+)": {
   "type": "show",
@@ -111,7 +121,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-03-01"
  },
  "American Hostage (MGM+)": {
   "type": "show",
@@ -121,7 +132,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-09-20"
  },
  "Avatar Aang: The Last Airbender (Paramount+)": {
   "type": "movie",
@@ -135,7 +147,8 @@
   "override": {
    "search": "Avatar Aang: The Last Airbender",
    "type": "movie"
-  }
+  },
+  "week": "2026-07-19"
  },
  "Avatar: The Last Airbender, season 2 (Netflix)": {
   "type": "show",
@@ -145,7 +158,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-06-21"
  },
  "Bait (Prime Video)": {
   "type": "show",
@@ -155,7 +169,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-03-22"
  },
  "Beef": {
   "type": "show",
@@ -165,7 +180,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-04-12"
  },
  "Best Medicine (Fox)": {
   "type": "show",
@@ -175,7 +191,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-01-04"
  },
  "Big Mistakes (Netflix)": {
   "type": "show",
@@ -185,7 +202,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-04-05"
  },
  "Bridgerton, season 4 (Netflix)": {
   "type": "show",
@@ -195,7 +213,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-01-25"
  },
  "Bridgerton, season 4 vol. 2 (Netflix)": {
   "type": "show",
@@ -205,7 +224,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-02-22"
  },
  "Cape Fear (Apple TV)": {
   "type": "show",
@@ -215,7 +235,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-05-31"
  },
  "Chad Powers, season 2 (Hulu)": {
   "type": "show",
@@ -225,7 +246,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-08-30"
  },
  "Criminal Record (Prime Video)": {
   "type": "show",
@@ -235,7 +257,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-04-19"
  },
  "DTF St. Louis (HBO)": {
   "type": "show",
@@ -245,7 +268,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-03-01"
  },
  "Daredevil: Born Again, season 2 (Disney+)": {
   "type": "show",
@@ -255,7 +279,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-03-22"
  },
  "Dark Matter, season 2 (Apple TV)": {
   "type": "show",
@@ -265,7 +290,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-08-23"
  },
  "Dark Winds, season 4 (AMC)": {
   "type": "show",
@@ -275,7 +301,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-02-15"
  },
  "Deli Boys, season 2 (Hulu)": {
   "type": "show",
@@ -285,7 +312,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-05-24"
  },
  "Dutton Ranch (Paramount+)": {
   "type": "show",
@@ -295,7 +323,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-05-10"
  },
  "East Of Eden": {
   "type": "show",
@@ -305,7 +334,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-09-27"
  },
  "Elle": {
   "type": "show",
@@ -315,7 +345,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-06-28"
  },
  "Euphoria season finale (HBO)": {
   "type": "show",
@@ -325,7 +356,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-05-31"
  },
  "Euphoria, season 3 (HBO)": {
   "type": "show",
@@ -335,7 +367,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-04-12"
  },
  "Every Year After (Prime Video)": {
   "type": "show",
@@ -345,7 +378,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-06-07"
  },
  "Fightland (Starz)": {
   "type": "show",
@@ -355,7 +389,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-07-26"
  },
  "From": {
   "type": "show",
@@ -365,7 +400,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-04-19"
  },
  "Furious (Hulu)": {
   "type": "show",
@@ -375,7 +411,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-07-26"
  },
  "Half Man (HBO)": {
   "type": "show",
@@ -385,7 +422,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-04-19"
  },
  "Heartstopper movie (Netflix)": {
   "type": "movie",
@@ -399,7 +437,8 @@
   "override": {
    "search": "Heartstopper",
    "type": "movie"
-  }
+  },
+  "week": "2026-07-12"
  },
  "His & Hers (Netflix)": {
   "type": "show",
@@ -409,7 +448,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-01-04"
  },
  "House Of The Dragon season 3 finale (HBO)": {
   "type": "show",
@@ -419,7 +459,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-08-09"
  },
  "House Of The Dragon, season 3 (HBO)": {
   "type": "show",
@@ -429,7 +470,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-06-21"
  },
  "How To Get To Heaven From Belfast (Netflix)": {
   "type": "show",
@@ -439,7 +481,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-02-08"
  },
  "I Will Find You (Netflix)": {
   "type": "show",
@@ -449,7 +492,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-06-14"
  },
  "Imperfect Women (Apple TV)": {
   "type": "show",
@@ -459,7 +503,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-03-15"
  },
  "Invincible, season 4 (Prime Video)": {
   "type": "show",
@@ -469,7 +514,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-03-15"
  },
  "It's Always Sunny in Philadelphia, season 18 (FXX/Hulu)": {
   "type": "show",
@@ -479,7 +525,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-08-16"
  },
  "Jury Duty Presents: Company Retreat (Prime Video)": {
   "type": "show",
@@ -489,7 +536,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-03-15"
  },
  "Lanterns (HBO)": {
   "type": "show",
@@ -499,7 +547,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-08-16"
  },
  "Last Seen (Apple TV)": {
   "type": "show",
@@ -509,7 +558,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-09-06"
  },
  "Life, Larry And The Pursuit Of Unhappiness (HBO)": {
   "type": "show",
@@ -519,7 +569,8 @@
   "exact": false,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-06-21"
  },
  "Line Of Fire (NBC)": {
   "type": "show",
@@ -529,7 +580,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-09-20"
  },
  "Little House On The Prairie": {
   "type": "show",
@@ -539,7 +591,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-07-05"
  },
  "Lord Of The Flies (Netflix)": {
   "type": "show",
@@ -549,7 +602,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-05-03"
  },
  "Love Story: John F. Kennedy Jr. & Carolyn Bessette (FX/Hulu)": {
   "type": "show",
@@ -562,7 +616,8 @@
    "search": "Love Story",
    "type": "show"
   },
-  "synced": true
+  "synced": true,
+  "week": "2026-02-08"
  },
  "Lucky (Apple TV)": {
   "type": "show",
@@ -572,7 +627,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-07-12"
  },
  "Malcolm In The Middle: Life's Still Unfair (Hulu)": {
   "type": "show",
@@ -582,7 +638,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-04-05"
  },
  "Man On Fire (Netflix)": {
   "type": "show",
@@ -592,7 +649,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-04-26"
  },
  "Margot's Got Money Troubles": {
   "type": "show",
@@ -605,7 +663,8 @@
    "search": "Margo's Got Money Troubles",
    "type": "show"
   },
-  "synced": true
+  "synced": true,
+  "week": "2026-04-12"
  },
  "Mating Season (Netflix)": {
   "type": "show",
@@ -615,7 +674,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-05-17"
  },
  "Maximum Pleasure Guaranteed (Apple TV)": {
   "type": "show",
@@ -625,7 +685,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-05-17"
  },
  "Mel Brooks: The 99 Year Old Man! (HBO)": {
   "type": "show",
@@ -635,7 +696,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-01-18"
  },
  "Monster: The Lizzie Borden Story (Netflix)": {
   "type": "show",
@@ -645,7 +707,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-09-13"
  },
  "Mother Mary (HBO Max)": {
   "type": "movie",
@@ -659,7 +722,8 @@
   "override": {
    "search": "Mother Mary",
    "type": "movie"
-  }
+  },
+  "week": "2026-08-16"
  },
  "My Brilliant Career (Netflix)": {
   "type": "show",
@@ -669,7 +733,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-08-09"
  },
  "Neagley (Prime Video)": {
   "type": "show",
@@ -679,7 +744,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-09-13"
  },
  "Not Suitable For Work (Hulu)": {
   "type": "show",
@@ -689,7 +755,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-05-31"
  },
  "Off Campus (Prime Video)": {
   "type": "show",
@@ -699,7 +766,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-05-10"
  },
  "Outer Banks, final season (Netflix)": {
   "type": "show",
@@ -709,7 +777,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-08-16"
  },
  "Outlander, season 8 (Starz)": {
   "type": "show",
@@ -719,7 +788,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-03-01"
  },
  "Paradise, season 2 (Hulu)": {
   "type": "show",
@@ -729,7 +799,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-02-22"
  },
  "Peaky Blinders: The Immortal Man (Netflix)": {
   "type": "movie",
@@ -743,7 +814,8 @@
   "override": {
    "search": "Peaky Blinders: The Immortal Man",
    "type": "movie"
-  }
+  },
+  "week": "2026-03-15"
  },
  "Ponies (Peacock)": {
   "type": "show",
@@ -753,7 +825,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-01-11"
  },
  "President Curtis (Adult Swim)": {
   "type": "show",
@@ -763,7 +836,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-07-26"
  },
  "Reacher, season 4 (Prime Video)": {
   "type": "show",
@@ -773,7 +847,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-08-09"
  },
  "Reality Check: Inside America's Next Top Model (Netflix)": {
   "type": "show",
@@ -783,7 +858,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-02-15"
  },
  "Ride Or Die (Prime Video)": {
   "type": "show",
@@ -793,7 +869,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-07-12"
  },
  "Rivals, season 2 (Hulu)": {
   "type": "show",
@@ -803,7 +880,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-05-10"
  },
  "Rooster (HBO)": {
   "type": "show",
@@ -813,7 +891,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-03-08"
  },
  "Running Point": {
   "type": "show",
@@ -823,7 +902,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-04-19"
  },
  "Saturday Night Live UK (Peacock)": {
   "type": "show",
@@ -833,7 +913,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-03-22"
  },
  "Scarpetta (Prime Video)": {
   "type": "show",
@@ -843,7 +924,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-03-08"
  },
  "Scrubs, season 10 (ABC)": {
   "type": "show",
@@ -853,7 +935,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-02-22"
  },
  "Shoresy, season 5 (Hulu)": {
   "type": "show",
@@ -863,7 +946,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-02-15"
  },
  "Shrinking, season 3 (Apple TV)": {
   "type": "show",
@@ -873,7 +957,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-01-25"
  },
  "Silo, season 3 (Apple TV)": {
   "type": "show",
@@ -883,7 +968,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-06-28"
  },
  "Slow Horses (Apple TV)": {
   "type": "show",
@@ -893,7 +979,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-09-13"
  },
  "Snoopy Presents: There's No Place Like Home, Snoopy (Apple TV)": {
   "type": "movie",
@@ -903,7 +990,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-07-26"
  },
  "Spider-Noir (Prime Video/MGM+)": {
   "type": "show",
@@ -913,7 +1001,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-05-24"
  },
  "Star City": {
   "type": "show",
@@ -923,7 +1012,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-05-24"
  },
  "Star Trek: Starfleet Academy (Paramount+)": {
   "type": "show",
@@ -933,7 +1023,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-01-11"
  },
  "Steal (Prime Video)": {
   "type": "show",
@@ -943,7 +1034,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-01-18"
  },
  "Stranger Things series finale (Netflix)": {
   "type": "show",
@@ -953,7 +1045,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2025-12-28"
  },
  "Stranger Things: Tales From '85 (Netflix)": {
   "type": "show",
@@ -963,7 +1056,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-04-19"
  },
  "Strip Law (Netflix)": {
   "type": "show",
@@ -973,7 +1067,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-02-15"
  },
  "Stuart Fails To Save The Universe (HBO Max)": {
   "type": "show",
@@ -983,7 +1078,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-07-19"
  },
  "Sugar, season 2 (Apple TV)": {
   "type": "show",
@@ -993,7 +1089,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-06-14"
  },
  "Sunny Nights (Hulu)": {
   "type": "show",
@@ -1003,7 +1100,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-03-08"
  },
  "Survivor 50 (CBS)": {
   "type": "show",
@@ -1017,7 +1115,8 @@
   "override": {
    "search": "Survivor",
    "type": "show"
-  }
+  },
+  "week": "2026-02-22"
  },
  "Ted Lasso, season 4 (Apple TV)": {
   "type": "show",
@@ -1027,7 +1126,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-08-02"
  },
  "Tell Me Lies, season 3 (Hulu)": {
   "type": "show",
@@ -1037,7 +1137,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-01-11"
  },
  "The 'Burbs (Peacock)": {
   "type": "show",
@@ -1047,7 +1148,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-02-08"
  },
  "The Audacity (AMC)": {
   "type": "show",
@@ -1057,7 +1159,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-04-12"
  },
  "The Bear, final season (FX/Hulu)": {
   "type": "show",
@@ -1067,7 +1170,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-06-21"
  },
  "The Beauty (FX)": {
   "type": "show",
@@ -1077,7 +1181,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-01-18"
  },
  "The Boroughs (Netflix)": {
   "type": "show",
@@ -1087,7 +1192,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-05-17"
  },
  "The Comeback, season 3 (HBO)": {
   "type": "show",
@@ -1100,7 +1206,8 @@
    "search": "The Comeback",
    "type": "show"
   },
-  "synced": true
+  "synced": true,
+  "week": "2026-03-22"
  },
  "The Dink (Apple TV)": {
   "type": "movie",
@@ -1114,7 +1221,8 @@
   "override": {
    "search": "The Dink",
    "type": "movie"
-  }
+  },
+  "week": "2026-07-19"
  },
  "The Drop: A Snowfall Saga (FX/Hulu)": {
   "type": "show",
@@ -1124,7 +1232,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-09-06"
  },
  "The Five Star Weekend (Peacock)": {
   "type": "show",
@@ -1134,7 +1243,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-07-05"
  },
  "The Four Seasons, season 2 (Netflix)": {
   "type": "show",
@@ -1144,7 +1254,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-05-24"
  },
  "The Gentlemen, season 2 (Netflix)": {
   "type": "show",
@@ -1154,7 +1265,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-08-30"
  },
  "The Hawk (Netflix)": {
   "type": "show",
@@ -1164,7 +1276,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-07-12"
  },
  "The Legend of Vox Machina, season 4 (Prime Video)": {
   "type": "show",
@@ -1174,7 +1287,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-05-31"
  },
  "The Listeners (Starz)": {
   "type": "show",
@@ -1184,7 +1298,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-06-07"
  },
  "The Madison (Paramount+)": {
   "type": "show",
@@ -1194,7 +1309,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-03-08"
  },
  "The Man Will Burn (HBO)": {
   "type": "show",
@@ -1204,7 +1320,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-07-05"
  },
  "The Miniature Wife (Peacock)": {
   "type": "show",
@@ -1214,7 +1331,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-04-05"
  },
  "The Muppet Show special (ABC/Disney+)": {
   "type": "show",
@@ -1224,7 +1342,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-02-01"
  },
  "The Other Bennet Sister": {
   "type": "show",
@@ -1234,7 +1353,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-05-03"
  },
  "The Paper, season 2 (Peacock)": {
   "type": "show",
@@ -1244,7 +1364,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-09-06"
  },
  "The Pitt, season 2 (HBO Max)": {
   "type": "show",
@@ -1254,7 +1375,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-01-04"
  },
  "The Punisher: One Last Kill (Disney+)": {
   "type": "movie",
@@ -1264,7 +1386,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-05-10"
  },
  "The Shards (FX)": {
   "type": "show",
@@ -1274,7 +1397,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-08-02"
  },
  "The Terror: Devil In Silver (AMC+/Shudder)": {
   "type": "show",
@@ -1284,7 +1408,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-05-03"
  },
  "The Testaments (Hulu)": {
   "type": "show",
@@ -1294,7 +1419,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-04-05"
  },
  "The Traitors, season 4 (Peacock)": {
   "type": "show",
@@ -1308,7 +1434,8 @@
    "type": "show",
    "year": 2023
   },
-  "synced": true
+  "synced": true,
+  "week": "2026-01-04"
  },
  "The Vampire Lestat / Interview With The Vampire, season 3 (AMC)": {
   "type": "show",
@@ -1322,7 +1449,8 @@
   "override": {
    "search": "Interview with the Vampire",
    "type": "show"
-  }
+  },
+  "week": "2026-06-07"
  },
  "The Vampire Lestat season finale (AMC)": {
   "type": "show",
@@ -1336,7 +1464,8 @@
   "override": {
    "search": "Interview with the Vampire",
    "type": "show"
-  }
+  },
+  "week": "2026-07-19"
  },
  "The Yogurt Shop Murders finale (HBO)": {
   "type": "show",
@@ -1346,7 +1475,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-05-17"
  },
  "Together (Hulu)": {
   "type": "movie",
@@ -1360,7 +1490,8 @@
   "override": {
    "search": "Together",
    "type": "movie"
-  }
+  },
+  "week": "2025-12-28"
  },
  "Trying, season 5 (Apple TV)": {
   "type": "show",
@@ -1370,7 +1501,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-07-05"
  },
  "Twenty Twenty Six (BritBox)": {
   "type": "show",
@@ -1380,7 +1512,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-04-26"
  },
  "Vanished (MGM+)": {
   "type": "show",
@@ -1390,7 +1523,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-02-01"
  },
  "Vladimir (Netflix)": {
   "type": "show",
@@ -1400,7 +1534,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-03-01"
  },
  "Widow's Bay (Apple TV)": {
   "type": "show",
@@ -1410,7 +1545,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-04-26"
  },
  "Wolf (AMC+/Shudder)": {
   "type": "show",
@@ -1423,7 +1559,8 @@
    "search": "Wolf",
    "type": "show"
   },
-  "synced": true
+  "synced": true,
+  "week": "2025-12-28"
  },
  "Wonder Man (Disney+)": {
   "type": "show",
@@ -1433,7 +1570,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-01-25"
  },
  "X-Men '97, season 2": {
   "type": "show",
@@ -1443,7 +1581,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-06-28"
  },
  "XO, Kitty, season 3 (Netflix)": {
   "type": "show",
@@ -1453,7 +1592,8 @@
   "exact": true,
   "ambiguous": false,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-03-29"
  },
  "Your Friends & Neighbors, season 2 (Apple TV)": {
   "type": "show",
@@ -1463,7 +1603,8 @@
   "exact": true,
   "ambiguous": true,
   "synced": true,
-  "override": null
+  "override": null,
+  "week": "2026-03-29"
  },
  "Youth (HBO)": {
   "type": "show",
@@ -1476,6 +1617,7 @@
    "search": "Youth",
    "type": "show"
   },
-  "synced": true
+  "synced": true,
+  "week": "2026-09-20"
  }
 }
