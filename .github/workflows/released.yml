@@ -2,7 +2,7 @@ name: Sync 2026 Released Series
 
 on:
   schedule:
-    - cron: "17 11 * * *"   # daily; the source list updates overnight
+    - cron: "17 */6 * * *"   # every 6 hours; the source updates at varying times
   push:
     branches: [main]
     paths: [sync_released.py, .github/workflows/released.yml]
