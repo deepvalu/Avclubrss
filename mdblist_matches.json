@@ -183,6 +183,17 @@
   "override": null,
   "week": "2026-04-12"
  },
+ "Below (Netflix)": {
+  "type": "movie",
+  "imdb": "tt0276816",
+  "title": "Below",
+  "year": 2002,
+  "exact": true,
+  "ambiguous": false,
+  "override": null,
+  "week": "2026-10-04",
+  "synced": true
+ },
  "Best Medicine (Fox)": {
   "type": "show",
   "imdb": "tt36885662",
@@ -226,6 +237,22 @@
   "synced": true,
   "override": null,
   "week": "2026-02-22"
+ },
+ "Brothers (Apple TV)": {
+  "type": "show",
+  "imdb": "tt6773088",
+  "title": "Brothers",
+  "year": 2026,
+  "exact": true,
+  "ambiguous": false,
+  "override": {
+   "search": "Brothers",
+   "type": "show",
+   "year": 2026,
+   "exact": true
+  },
+  "week": "2026-09-20",
+  "synced": true
  },
  "Cape Fear (Apple TV)": {
   "type": "show",
@@ -326,16 +353,16 @@
   "override": null,
   "week": "2026-05-10"
  },
- "East Of Eden": {
+ "East Of Eden (Netflix)": {
   "type": "show",
   "imdb": "tt21097264",
   "title": "East of Eden",
   "year": 2026,
   "exact": true,
   "ambiguous": true,
-  "synced": true,
   "override": null,
-  "week": "2026-09-27"
+  "week": "2026-09-27",
+  "synced": true
  },
  "Elle": {
   "type": "show",
@@ -981,6 +1008,17 @@
   "synced": true,
   "override": null,
   "week": "2026-09-13"
+ },
+ "Small Prophets (Apple TV)": {
+  "type": "show",
+  "imdb": "tt38504111",
+  "title": "Small Prophets",
+  "year": 2026,
+  "exact": true,
+  "ambiguous": false,
+  "override": null,
+  "week": "2026-10-04",
+  "synced": true
  },
  "Snoopy Presents: There's No Place Like Home, Snoopy (Apple TV)": {
   "type": "movie",
