@@ -287,6 +287,17 @@
   "override": null,
   "week": "2026-04-19"
  },
+ "Crystal Lake (Peacock)": {
+  "type": "show",
+  "imdb": "tt23148340",
+  "title": "Crystal Lake",
+  "year": 2026,
+  "exact": true,
+  "ambiguous": true,
+  "override": null,
+  "week": "2026-10-11",
+  "synced": true
+ },
  "DTF St. Louis (HBO)": {
   "type": "show",
   "imdb": "tt34385331",
@@ -1563,6 +1574,17 @@
   "synced": true,
   "override": null,
   "week": "2026-02-01"
+ },
+ "VisionQuest (Disney+)": {
+  "type": "show",
+  "imdb": "tt23112594",
+  "title": "VisionQuest",
+  "year": 2026,
+  "exact": true,
+  "ambiguous": false,
+  "override": null,
+  "week": "2026-10-11",
+  "synced": true
  },
  "Vladimir (Netflix)": {
   "type": "show",
