@@ -855,6 +855,17 @@
   },
   "week": "2026-03-15"
  },
+ "Phony (Hulu)": {
+  "type": "show",
+  "imdb": "tt21952924",
+  "title": "Phony",
+  "year": 2026,
+  "exact": true,
+  "ambiguous": true,
+  "override": null,
+  "week": "2026-10-18",
+  "synced": true
+ },
  "Ponies (Peacock)": {
   "type": "show",
   "imdb": "tt33270420",
@@ -1394,6 +1405,17 @@
   "override": null,
   "week": "2026-02-01"
  },
+ "The New Stanford Prison Experiment (Netflix)": {
+  "type": "show",
+  "imdb": "tt46658083",
+  "title": "The New Stanford Prison Experiment",
+  "year": 2026,
+  "exact": true,
+  "ambiguous": false,
+  "override": null,
+  "week": "2026-10-18",
+  "synced": true
+ },
  "The Other Bennet Sister": {
   "type": "show",
   "imdb": "tt37022512",
@@ -1654,6 +1676,17 @@
   "synced": true,
   "override": null,
   "week": "2026-03-29"
+ },
+ "Yaga (AMC+)": {
+  "type": "show",
+  "imdb": "tt39980704",
+  "title": "YAGA",
+  "year": 2026,
+  "exact": true,
+  "ambiguous": false,
+  "override": null,
+  "week": "2026-10-18",
+  "synced": true
  },
  "Your Friends & Neighbors, season 2 (Apple TV)": {
   "type": "show",
