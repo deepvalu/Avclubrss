@@ -4,3 +4,4 @@ Picks the sync couldn't match. Add fixes to mdblist_overrides.json.
 2026-09-13  The Traitors: New Blood (Peacock)  [searched: The Traitors: New Blood]
 2026-09-27  War (HBO)  [searched: War]
 2026-10-18  Nobody Wants This (Netflix), season 3  [searched: Nobody Wants This (Netflix)]
+2026-10-25  The Mob (Hulu)  [searched: The Mob]

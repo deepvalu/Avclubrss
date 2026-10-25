@@ -785,6 +785,17 @@
   "override": null,
   "week": "2026-09-13"
  },
+ "Nocturne (Apple TV)": {
+  "type": "movie",
+  "imdb": "tt11044858",
+  "title": "Nocturne",
+  "year": 2020,
+  "exact": true,
+  "ambiguous": true,
+  "override": null,
+  "week": "2026-10-25",
+  "synced": true
+ },
  "Not Suitable For Work (Hulu)": {
   "type": "show",
   "imdb": "tt35823838",
@@ -953,6 +964,17 @@
   "synced": true,
   "override": null,
   "week": "2026-04-19"
+ },
+ "SCTV: The Greatest Show You've Never Heard Of (Netflix)": {
+  "type": "movie",
+  "imdb": "tt44825373",
+  "title": "SCTV: The Greatest Show You've Never Heard Of",
+  "year": 2026,
+  "exact": true,
+  "ambiguous": false,
+  "override": null,
+  "week": "2026-10-25",
+  "synced": true
  },
  "Saturday Night Live UK (Peacock)": {
   "type": "show",
