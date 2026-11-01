@@ -5,3 +5,7 @@ Picks the sync couldn't match. Add fixes to mdblist_overrides.json.
 2026-09-27  War (HBO)  [searched: War]
 2026-10-18  Nobody Wants This (Netflix), season 3  [searched: Nobody Wants This (Netflix)]
 2026-10-25  The Mob (Hulu)  [searched: The Mob]
+2026-11-01  Youth (HBO), season 1 finale  [searched: Youth (HBO)]
+2026-11-01  The Greatest (Prime Video)  [searched: The Greatest]
+2026-11-01  Taskmaster (YouTube), season 22 finale  [searched: Taskmaster (YouTube)]
+2026-11-01  North Of North (Netflix), season 2  [searched: North Of North (Netflix)]

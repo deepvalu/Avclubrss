@@ -555,6 +555,17 @@
   "override": null,
   "week": "2026-03-15"
  },
+ "It Gets Worse (Paramount+)": {
+  "type": "show",
+  "imdb": "tt35926686",
+  "title": "It Gets Worse",
+  "year": 2026,
+  "exact": true,
+  "ambiguous": true,
+  "override": null,
+  "week": "2026-11-01",
+  "synced": true
+ },
  "It's Always Sunny in Philadelphia, season 18 (FXX/Hulu)": {
   "type": "show",
   "imdb": "tt0472954",
