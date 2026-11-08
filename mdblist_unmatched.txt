@@ -9,3 +9,5 @@ Picks the sync couldn't match. Add fixes to mdblist_overrides.json.
 2026-11-01  The Greatest (Prime Video)  [searched: The Greatest]
 2026-11-01  Taskmaster (YouTube), season 22 finale  [searched: Taskmaster (YouTube)]
 2026-11-01  North Of North (Netflix), season 2  [searched: North Of North (Netflix)]
+2026-11-08  VisionQuest (Disney+), finale  [searched: VisionQuest (Disney+),]
+2026-11-08  The Lord Of The Rings: The Rings Of Power (Prime Video), season 3  [searched: The Lord Of The Rings: The Rings Of Power (Prime Video)]

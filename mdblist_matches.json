@@ -1,4 +1,15 @@
 {
+ "12 12 12 (Apple TV)": {
+  "type": "show",
+  "imdb": "tt32375763",
+  "title": "12 12 12",
+  "year": 2026,
+  "exact": true,
+  "ambiguous": false,
+  "override": null,
+  "week": "2026-11-08",
+  "synced": true
+ },
  "28 Years Later: The Bone Temple (Netflix)": {
   "type": "movie",
   "imdb": "tt32141377",
@@ -1277,6 +1288,17 @@
   "override": null,
   "week": "2026-01-18"
  },
+ "The Body (Netflix)": {
+  "type": "movie",
+  "imdb": "tt1937149",
+  "title": "The Body",
+  "year": 2012,
+  "exact": true,
+  "ambiguous": false,
+  "override": null,
+  "week": "2026-11-08",
+  "synced": true
+ },
  "The Boroughs (Netflix)": {
   "type": "show",
   "imdb": "tt27557289",
@@ -1360,6 +1382,17 @@
   "synced": true,
   "override": null,
   "week": "2026-08-30"
+ },
+ "The Good Daughter (Peacock)": {
+  "type": "show",
+  "imdb": "tt31842126",
+  "title": "The Good Daughter",
+  "year": 2026,
+  "exact": true,
+  "ambiguous": true,
+  "override": null,
+  "week": "2026-11-08",
+  "synced": true
  },
  "The Hawk (Netflix)": {
   "type": "show",
