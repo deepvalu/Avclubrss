@@ -1255,6 +1255,17 @@
   "override": null,
   "week": "2026-02-08"
  },
+ "The Altruists (Netflix)": {
+  "type": "show",
+  "imdb": "tt36786185",
+  "title": "The Altruists",
+  "year": 2026,
+  "exact": true,
+  "ambiguous": false,
+  "override": null,
+  "week": "2026-11-15",
+  "synced": true
+ },
  "The Audacity (AMC)": {
   "type": "show",
   "imdb": "tt30923123",
@@ -1392,6 +1403,17 @@
   "ambiguous": true,
   "override": null,
   "week": "2026-11-08",
+  "synced": true
+ },
+ "The Greatest (Prime Video)": {
+  "type": "show",
+  "imdb": "tt15715850",
+  "title": "The Greatest",
+  "year": 2026,
+  "exact": true,
+  "ambiguous": false,
+  "override": null,
+  "week": "2026-11-01",
   "synced": true
  },
  "The Hawk (Netflix)": {
