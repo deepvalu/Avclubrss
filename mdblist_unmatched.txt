@@ -13,3 +13,6 @@ Picks the sync couldn't match. Add fixes to mdblist_overrides.json.
 2026-11-15  The Traitors: New Blood (NBC), season 1 finale  [searched: The Traitors: New Blood (NBC)]
 2026-11-15  Yellowjackets (Paramount+), season 4  [searched: Yellowjackets (Paramount+)]
 2026-11-15  Percy Jackson And The Olympians (Disney+/Hulu), season 3  [searched: Percy Jackson And The Olympians (Disney+/Hulu)]
+2026-11-22  The Lord Of The Rings: The Rings Of Power (Prime Video), season 3 finale  [searched: The Lord Of The Rings: The Rings Of Power (Prime Video)]
+2026-11-22  The Lowdown (FX/Hulu), season 2 finale  [searched: The Lowdown (FX/Hulu)]
+2026-11-22  The Hunting Wives (Netflix), season 2  [searched: The Hunting Wives (Netflix)]

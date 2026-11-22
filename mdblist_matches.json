@@ -227,6 +227,17 @@
   "override": null,
   "week": "2026-04-05"
  },
+ "Blade Runner 2099 (Prime Video)": {
+  "type": "show",
+  "imdb": "tt18224594",
+  "title": "Blade Runner 2099",
+  "year": 2026,
+  "exact": true,
+  "ambiguous": false,
+  "override": null,
+  "week": "2026-11-22",
+  "synced": true
+ },
  "Bridgerton, season 4 (Netflix)": {
   "type": "show",
   "imdb": "tt8740790",
@@ -363,6 +374,17 @@
   "synced": true,
   "override": null,
   "week": "2026-05-24"
+ },
+ "Dig (Peacock)": {
+  "type": "movie",
+  "imdb": "tt0388888",
+  "title": "Dig!",
+  "year": 2004,
+  "exact": true,
+  "ambiguous": false,
+  "override": null,
+  "week": "2026-11-22",
+  "synced": true
  },
  "Dutton Ranch (Paramount+)": {
   "type": "show",
